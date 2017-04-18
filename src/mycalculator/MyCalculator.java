@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class MyCalculator extends JFrame implements ActionListener {
 
-    JPanel[] row = new JPanel[5];
+    JPanel[] row = new JPanel[35];
     JButton[] button = new JButton[19];
     String[] buttonString = {"7", "8", "9", "+",
         "4", "5", "6", "-",
